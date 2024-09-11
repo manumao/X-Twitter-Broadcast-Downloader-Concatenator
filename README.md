@@ -1,5 +1,25 @@
 **How to Download X Broadcasts**
-loom (https://www.loom.com/share/bdb9d40421e74eb4bc7a8c000b5c67ea?sid=7f068521-b80b-4d9d-8b3b-fb871eabf241)
+https://www.loom.com/share/bdb9d40421e74eb4bc7a8c000b5c67ea?sid=7f068521-b80b-4d9d-8b3b-fb871eabf241
+
+Q: If I would like to run this file what I need to do before hand?
+To run the provided Python script, you need to complete the following steps:
+1. Install Required Packages:
+Ensure you have the requests library installed. You can install it using pip: **pip install requests**
+
+2. Set Base URL:
+Update the base_url variable with the correct URL that points to the directory containing the .ts files.
+
+3. Set Playlist Path:
+Specify the path to your playlist file in the playlist_path variable
+
+4. Install FFmpeg:
+Ensure that FFmpeg is installed on your system and is accessible from the command line. You can download it from FFmpeg's official website and follow the installation instructions for your operating system.
+
+5. Run the Script:
+After setting the base_url and playlist_path, you can run the script using:  python main.py
+Make sure that the script has permission to write files in the current directory, as it will create .ts files and output_video.mp4.
+
+Q: How do I find the base URL and the playlist file?
 1. Navigate to the Broadcast URL
 Open the broadcast you want to download (e.g., https://x.com/i/broadcasts/1LyxBgZQMZnKN).
 
